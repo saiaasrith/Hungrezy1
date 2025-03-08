@@ -54,20 +54,7 @@ header p {
     transform: translateY(-5px);
 }
 
-/* Responsive Design - Update to maintain spacing on smaller screens */
-@media (max-width: 1200px) {
-    .jobs-container {
-        justify-content: space-evenly;
-    }
-}
 
-@media (max-width: 768px) {
-    .jobs-container {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-    }
-}
 }
 
 /* Job Description */
@@ -190,10 +177,17 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1200px) {
+    .jobs-container {
+        justify-content: space-evenly;
+    }
+}
+
 @media (max-width: 768px) {
     .jobs-container {
         flex-direction: column;
         align-items: center;
+        gap: 30px;
     }
 
     .application-form {
