@@ -1,6 +1,3 @@
-this is a careers page
-index.html
-
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -34,9 +31,12 @@ header p {
 
 .jobs-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Changed from center to space-between */
     flex-wrap: wrap;
-    gap: 30px; /* Proper equal spacing */
+    gap: 50px; /* Increased from 30px to 50px for more spacing */
+    max-width: 1200px; /* Added max-width to control overall container width */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add some padding on the sides */
 }
 
 .job-card {
@@ -47,10 +47,27 @@ header p {
     width: 300px;
     transition: transform 0.3s ease;
     text-align: left;
+    margin-bottom: 20px; /* Added to ensure vertical spacing when cards wrap */
 }
 
 .job-card:hover {
     transform: translateY(-5px);
+}
+
+/* Responsive Design - Update to maintain spacing on smaller screens */
+@media (max-width: 1200px) {
+    .jobs-container {
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 768px) {
+    .jobs-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
 }
 
 /* Job Description */
