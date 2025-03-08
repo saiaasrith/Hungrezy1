@@ -96,7 +96,24 @@ details p {
 .apply-btn:hover, .submit-btn:hover {
     background: #e67317;
 }
+.description-btn, .submit-btn {
+    display: block;
+    background: blue;
+    color: whitesmoke;
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
 
+.description-btn:hover, .submit-btn:hover {
+    background: #e67317;
+}
 /* Application Form Styling */
 .application-form {
     background: white;
