@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Analyst | Startup Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Join Our Team</h1>
+        <p>Be part of something amazing! Explore our career opportunities.</p>
+    </header>
+
+    <div style="max-width: 800px; margin: 40px auto; padding: 30px; background-color: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); text-align: left;">
+        <h2 style="color: #333; margin-bottom: 20px; font-size: 28px; border-bottom: 2px solid #ff6b00; padding-bottom: 10px;">Business Analyst</h2>
+        
+        <div style="margin-bottom: 25px;">
+            <h3 style="color: #444; font-size: 20px;">Job Description</h3>
+            <p style="line-height: 1.6; color: #555; font-size: 16px;">We are looking for a detail-oriented Business Analyst to help shape the future of our products with strategic insights. You will work closely with stakeholders to understand business needs, analyze data, and provide recommendations that drive our product roadmap and business decisions.</p>
+        </div>
+        
+        <div style="margin-bottom: 25px;">
+            <h3 style="color: #444; font-size: 20px;">Skills Required</h3>
+            <ul style="line-height: 1.6; color: #555; font-size: 16px; padding-left: 20px;">
+                <li>Bachelor's degree in Business, Finance, or related field</li>
+                <li>Strong analytical and problem-solving skills</li>
+                <li>Proficiency in data analysis tools (Excel, SQL, Tableau, etc.)</li>
+                <li>Experience with requirements gathering and documentation</li>
+                <li>Knowledge of business process modeling techniques</li>
+                <li>Excellent communication and presentation skills</li>
+                <li>Understanding of agile methodologies</li>
+            </ul>
+        </div>
+        
+        <div style="margin-bottom: 25px;">
+            <h3 style="color: #444; font-size: 20px;">Key Responsibilities</h3>
+            <ul style="line-height: 1.6; color: #555; font-size: 16px; padding-left: 20px;">
+                <li>Gather, analyze, and document business requirements</li>
+                <li>Conduct market research and competitive analysis</li>
+                <li>Create detailed business analysis and recommendations for solutions</li>
+                <li>Develop business cases for proposed initiatives</li>
+                <li>Work with cross-functional teams to implement solutions</li>
+                <li>Monitor performance metrics and identify areas for improvement</li>
+                <li>Facilitate workshops and meetings with stakeholders</li>
+            </ul>
+        </div>
+        
+        <a href="apply.html?position=Business%20Analyst" style="display: block; background: blue; color: white; text-decoration: none; border: none; padding: 15px; margin-top: 30px; width: 200px; border-radius: 5px; font-weight: bold; text-align: center; margin-left: auto; margin-right: auto; transition: background-color 0.3s;">Apply Now</a>
+        
+        <a href="index.html" style="display: block; text-align: center; margin-top: 20px; color: #666; text-decoration: none;">← Back to all positions</a>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>&copy; 2025 Startup Name. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <p><strong>Email:</strong> <a href="mailto:careers@startup.com">careers@startup.com</a></p>
+                <p><strong>Address:</strong> Kondapur, Hyderabad, India</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
